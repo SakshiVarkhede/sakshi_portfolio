@@ -120,6 +120,40 @@ This project showcases expertise in full-stack development, machine learning int
     ],
     githubUrl: "https://github.com/SakshiVarkhede/ai-budget-tracker",
   },
+  "scriptify-ai": {
+    title: "Scriptify AI",
+    description:
+      "AI-powered content creation platform for influencers and creators. Built with Next.js, TypeScript, and GPT-4o to generate scripts for YouTube, Reels, and podcasts from uploaded research files.",
+    longDescription: `Scriptify AI is a comprehensive AI-powered content creation platform designed specifically for influencers and content creators. The platform leverages the power of GPT-4o to transform research materials into engaging scripts for various content formats including YouTube videos, Instagram Reels, and podcasts.
+
+Built with Next.js and TypeScript, Scriptify AI provides a robust and scalable solution for content creators who need to streamline their scriptwriting process. Users can upload research files in multiple formats including PDF, DOCX, and audio files, which the platform then processes using advanced AI to extract key information and generate tailored scripts.
+
+The platform includes a suite of AI-powered helper tools designed to enhance content creation workflows. These include intelligent video hook generators that create compelling opening lines, hashtag generators that suggest relevant tags for maximum reach, content idea generators that spark creativity, and content calendar tools that help creators plan and organize their content strategy.
+
+Scriptify AI features comprehensive user authentication and secure file management, ensuring that creators' work and research materials are protected. The platform also includes history tracking, allowing users to review past scripts, access previous research files, and maintain a complete record of their content creation journey.
+
+This project demonstrates expertise in full-stack development, AI integration, file processing, user authentication, and creating practical solutions that address real-world needs in the content creation industry.`,
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "GPT-4o",
+      "PDF Processing",
+      "DOCX Processing",
+      "User Authentication",
+      "File Management",
+      "History Tracking",
+    ],
+    category: "Full-Stack & AI/ML",
+    features: [
+      "AI-powered script generation for YouTube, Reels, and podcasts",
+      "Multi-format file upload support (PDF, DOCX, audio)",
+      "AI helpers for video hooks, hashtags, and content ideas",
+      "Content calendar planning and organization",
+      "User authentication and secure file management",
+      "Complete history tracking for scripts and research files",
+      "GPT-4o integration for advanced content generation",
+    ],
+  },
 };
 
 export default function ProjectDetailPage({

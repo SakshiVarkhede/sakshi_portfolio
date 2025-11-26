@@ -33,6 +33,13 @@ const projects = [
     stack: ["Next.js", "Python ML Models"],
     category: "Full-Stack & ML",
   },
+  {
+    id: "scriptify-ai",
+    title: "Scriptify AI",
+    description: "AI-powered content creation platform for influencers and creators. Built with Next.js, TypeScript, and GPT-4o to generate scripts for YouTube, Reels, and podcasts from uploaded research files.",
+    stack: ["Next.js", "TypeScript", "GPT-4o", "Authentication"],
+    category: "Full-Stack & AI/ML",
+  },
 ];
 
 export default function Projects() {

@@ -58,13 +58,26 @@ npm run dev
 
 1. Push your code to GitHub
 2. Import your repository in Vercel
-3. Add environment variables in Vercel dashboard:
-   - `SENDGRID_API_KEY`
-   - `SENDGRID_EMAIL_TO`
-   - `SENDGRID_EMAIL_FROM`
-4. Deploy!
+3. **IMPORTANT**: Add environment variables in Vercel dashboard:
+   - Go to your project settings → Environment Variables
+   - Add the following variables:
+     - `SENDGRID_API_KEY` - Your SendGrid API key (get it from [SendGrid Dashboard](https://app.sendgrid.com/settings/api_keys))
+     - `SENDGRID_EMAIL_TO` - Email address where you want to receive contact form messages
+     - `SENDGRID_EMAIL_FROM` - Email address to send from (must be verified in SendGrid)
+   - Make sure to add them for **Production**, **Preview**, and **Development** environments
+4. Redeploy your application after adding the environment variables
 
-The project is configured for Vercel deployment and requires no additional setup.
+**Note**: If you see "Email service not configured" error after deployment, it means the environment variables are not set. Make sure to:
+- Add all three environment variables in your deployment platform
+- Redeploy after adding the variables
+- Verify the variable names match exactly (case-sensitive)
+
+### Deploy to Other Platforms
+
+For other platforms (Netlify, Railway, etc.), follow the same steps:
+1. Add the three environment variables in your platform's settings
+2. Redeploy your application
+3. Ensure the variables are available at build time and runtime
 
 ## 📁 Project Structure
 
